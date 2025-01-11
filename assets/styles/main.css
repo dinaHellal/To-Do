@@ -12,28 +12,38 @@ body {
   background-color: #c363ec;
   width: 90%; 
   max-width: 600px; 
-  margin: 50px auto;
+  margin: 50px auto; 
   padding: 20px;
-  text-align: center;
-  border: 1px solid #000;
+  align-items: center;
+  border: 1px solid black;
   border-radius: 8px;
 }
 
-input {
+#input-task {
+  padding: 8px;
   border-radius: 4px;
   outline: none;
   border: none;
   margin: 15px 0;
+  width: 70%; 
   max-width: 400px; 
+}
+#add-task{
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin: 15px 0;
 }
 @media (min-width: 768px) {
   .container {
-    width: 60%;
+    width: 60%; 
     margin: 100px auto;
     padding: 40px;
   }
 
   input {
     padding: 10px;
+    margin: 20px 100px;
   }
 }
